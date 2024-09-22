@@ -1,0 +1,10 @@
+f:\aumod\MH\src\bin\Debug\net6.0\MH.deps.json
+f:\aumod\MH\src\bin\Debug\net6.0\MH.dll
+f:\aumod\MH\src\obj\Debug\net6.0\MH.csproj.AssemblyReference.cache
+f:\aumod\MH\src\obj\Debug\net6.0\MH.GeneratedMSBuildEditorConfig.editorconfig
+f:\aumod\MH\src\obj\Debug\net6.0\MH.AssemblyInfoInputs.cache
+f:\aumod\MH\src\obj\Debug\net6.0\MH.AssemblyInfo.cs
+f:\aumod\MH\src\obj\Debug\net6.0\MH.csproj.CoreCompileInputs.cache
+f:\aumod\MH\src\obj\Debug\net6.0\MH.dll
+f:\aumod\MH\src\obj\Debug\net6.0\refint\MH.dll
+f:\aumod\MH\src\obj\Debug\net6.0\ref\MH.dll
