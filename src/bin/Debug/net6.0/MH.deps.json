@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v6.0": {
       "MH/0.0.1": {
         "dependencies": {
-          "AmongUs.GameLibs.Steam": "2024.9.4",
+          "AmongUs.GameLibs.Steam": "2024.10.29",
           "BepInEx.AutoPlugin": "1.1.0",
           "BepInEx.IL2CPP.MSBuild": "2.0.1",
           "BepInEx.Unity.IL2CPP": "6.0.0-be.662",
-          "YamlDotNet": "15.3.0"
+          "YamlDotNet": "15.1.2"
         },
         "runtime": {
           "MH.dll": {}
         }
       },
-      "AmongUs.GameLibs.Steam/2024.9.4": {},
+      "AmongUs.GameLibs.Steam/2024.10.29": {},
       "AssetRipper.VersionUtilities/1.2.1": {},
       "BepInEx.AutoPlugin/1.1.0": {},
       "BepInEx.Core/6.0.0-be.662": {
@@ -584,11 +584,11 @@
         }
       },
       "System.ValueTuple/4.5.0": {},
-      "YamlDotNet/15.3.0": {
+      "YamlDotNet/15.1.2": {
         "runtime": {
           "lib/net6.0/YamlDotNet.dll": {
             "assemblyVersion": "15.0.0.0",
-            "fileVersion": "15.3.0.0"
+            "fileVersion": "15.1.2.0"
           }
         }
       }
@@ -600,12 +600,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AmongUs.GameLibs.Steam/2024.9.4": {
+    "AmongUs.GameLibs.Steam/2024.10.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5ZzigeztB4Y3xBM84Xl4bLBS/GGVe7tyZB6RxvUXHZS0xUP3RxqTGLeiB+xZSBlwD77aMrkZK0uJEh+MYvDB/A==",
-      "path": "amongus.gamelibs.steam/2024.9.4",
-      "hashPath": "amongus.gamelibs.steam.2024.9.4.nupkg.sha512"
+      "sha512": "sha512-znuLMD9DRMTp7RMfIz3hts5KUljioPZ1TiuodgyFrH3mDEcOLZtn1sA08AU9pUzsgQA9hzikrrzP+sJIsPqZ9g==",
+      "path": "amongus.gamelibs.steam/2024.10.29",
+      "hashPath": "amongus.gamelibs.steam.2024.10.29.nupkg.sha512"
     },
     "AssetRipper.VersionUtilities/1.2.1": {
       "type": "package",
@@ -1181,12 +1181,12 @@
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
-    "YamlDotNet/15.3.0": {
+    "YamlDotNet/15.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-F93japYa9YrJ59AZGhgdaUGHN7ITJ55FBBg/D/8C0BDgahv/rQD6MOSwHxOJJpon1kYyslVbeBrQ2wcJhox01w==",
-      "path": "yamldotnet/15.3.0",
-      "hashPath": "yamldotnet.15.3.0.nupkg.sha512"
+      "sha512": "sha512-qeX0XhzOIcQEvnI5JxnPaIwcINwyY4Qy/LXhSfsdHkFrl9F41AT52UFfy2nIE7kgrhMg+cP7xuS+GtPJhmHmTA==",
+      "path": "yamldotnet/15.1.2",
+      "hashPath": "yamldotnet.15.1.2.nupkg.sha512"
     }
   }
 }
