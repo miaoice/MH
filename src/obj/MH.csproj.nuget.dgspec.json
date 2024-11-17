@@ -48,7 +48,7 @@
             "AmongUs.GameLibs.Steam": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2024.9.4, )"
+              "version": "[2024.10.29, )"
             },
             "BepInEx.AutoPlugin": {
               "suppressParent": "All",
@@ -68,7 +68,7 @@
             },
             "YamlDotNet": {
               "target": "Package",
-              "version": "[15.3.0, )"
+              "version": "[15.1.2, )"
             }
           },
           "imports": [
