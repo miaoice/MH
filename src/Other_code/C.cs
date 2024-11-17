@@ -27,6 +27,8 @@ public static class C
     public static int AF = 0;
     //关闭音乐
     public static bool Music = false;
+    //不结束
+    public static bool NoEnd = false;
     //文字变量----------------------------
     
     //内鬼
