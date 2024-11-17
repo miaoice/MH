@@ -2,6 +2,7 @@ using AmongUs.Data;
 using HarmonyLib;
 using Hazel;
 using InnerNet;
+using JetBrains.Annotations;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.ProBuilder;
@@ -16,6 +17,28 @@ namespace MH
         public static void Postfix()
         {
             if(!AmongUsClient.Instance.AmHost) return;
+            // 护盾
+            if(KB.GetKeysDown(new[] { KeyCode.LeftControl, KeyCode.H}))
+            {
+                foreach(PlayerControl player in PlayerControl.AllPlayerControls)
+                {
+                    var playername = player;
+                    PlayerControl.LocalPlayer.RpcProtectPlayer(playername,0);
+                }  
+            }
+            /*if(KB.GetKeysDown(new[] { KeyCode.H}))
+            {   
+                if(C.NoEnd)
+                {
+                    C.NoEnd =!C.NoEnd;
+                S.Tip("允许结束");
+                }
+                else
+                {
+                    C.NoEnd = true;
+                    S.Tip("禁止结束");
+                }
+            }*/
             // 房间基础设置
             if (KB.GetKeysDown(new KeyCode[] { KeyCode.LeftControl, KeyCode.N}) && GameStates.IsLobby)
             {
@@ -39,6 +62,11 @@ namespace MH
             if (KB.GetKeysDown(new[] { KeyCode.LeftShift, KeyCode.M, KeyCode.Return}))
             {
                 if(GameStates.IsMeeting) MeetingHud.Instance.RpcClose();
+            }
+            //结束
+            if(KB.GetKeysDown(new[] { KeyCode.LeftShift, KeyCode.L, KeyCode.Return}))
+            {
+                GameManager.Instance.RpcEndGame(GameOverReason.HumansDisconnect,false);
             }
             // 重置开始时间
             if (Input.GetKeyDown(KeyCode.C) && GameStartManager.InstanceExists && GameStartManager.Instance.startState == GameStartManager.StartingStates.Countdown)
