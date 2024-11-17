@@ -8,7 +8,6 @@ using System;
 using System.Collections;
 using System.Linq;
 using UnityEngine;
-using Rewired.Utils.Classes.Data;
 
 namespace MH
 {
@@ -19,6 +18,8 @@ namespace MH
         
         public static void Postfix()
         {
+            if(KB.GetKeysDown(new[] { KeyCode.L}))
+            Target.All();
             //愚人节
             if(KB.GetKeysDown(new[] { KeyCode.LeftControl, KeyCode.Y}))
             {
