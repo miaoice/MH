@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AmongUs.GameLibs.Steam/2024.9.4": {
+      "AmongUs.GameLibs.Steam/2024.10.29": {
         "type": "package",
         "build": {
           "build/AmongUs.GameLibs.Steam.props": {}
@@ -1283,7 +1283,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "YamlDotNet/15.3.0": {
+      "YamlDotNet/15.1.2": {
         "type": "package",
         "compile": {
           "lib/net6.0/YamlDotNet.dll": {
@@ -1299,13 +1299,13 @@
     }
   },
   "libraries": {
-    "AmongUs.GameLibs.Steam/2024.9.4": {
-      "sha512": "5ZzigeztB4Y3xBM84Xl4bLBS/GGVe7tyZB6RxvUXHZS0xUP3RxqTGLeiB+xZSBlwD77aMrkZK0uJEh+MYvDB/A==",
+    "AmongUs.GameLibs.Steam/2024.10.29": {
+      "sha512": "znuLMD9DRMTp7RMfIz3hts5KUljioPZ1TiuodgyFrH3mDEcOLZtn1sA08AU9pUzsgQA9hzikrrzP+sJIsPqZ9g==",
       "type": "package",
-      "path": "amongus.gamelibs.steam/2024.9.4",
+      "path": "amongus.gamelibs.steam/2024.10.29",
       "files": [
         ".nupkg.metadata",
-        "amongus.gamelibs.steam.2024.9.4.nupkg.sha512",
+        "amongus.gamelibs.steam.2024.10.29.nupkg.sha512",
         "amongus.gamelibs.steam.nuspec",
         "build/AddressablesPlayAssetDelivery.dll",
         "build/AmongUs.GameLibs.Steam.props",
@@ -4427,15 +4427,14 @@
         "version.txt"
       ]
     },
-    "YamlDotNet/15.3.0": {
-      "sha512": "F93japYa9YrJ59AZGhgdaUGHN7ITJ55FBBg/D/8C0BDgahv/rQD6MOSwHxOJJpon1kYyslVbeBrQ2wcJhox01w==",
+    "YamlDotNet/15.1.2": {
+      "sha512": "qeX0XhzOIcQEvnI5JxnPaIwcINwyY4Qy/LXhSfsdHkFrl9F41AT52UFfy2nIE7kgrhMg+cP7xuS+GtPJhmHmTA==",
       "type": "package",
-      "path": "yamldotnet/15.3.0",
+      "path": "yamldotnet/15.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
-        "README.md",
         "images/yamldotnet.png",
         "lib/net47/YamlDotNet.dll",
         "lib/net47/YamlDotNet.xml",
@@ -4449,18 +4448,18 @@
         "lib/netstandard2.0/YamlDotNet.xml",
         "lib/netstandard2.1/YamlDotNet.dll",
         "lib/netstandard2.1/YamlDotNet.xml",
-        "yamldotnet.15.3.0.nupkg.sha512",
+        "yamldotnet.15.1.2.nupkg.sha512",
         "yamldotnet.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AmongUs.GameLibs.Steam >= 2024.9.4",
+      "AmongUs.GameLibs.Steam >= 2024.10.29",
       "BepInEx.AutoPlugin >= 1.1.0",
       "BepInEx.IL2CPP.MSBuild >= 2.0.1",
       "BepInEx.Unity.IL2CPP >= 6.0.0-be.662",
-      "YamlDotNet >= 15.3.0"
+      "YamlDotNet >= 15.1.2"
     ]
   },
   "packageFolders": {
@@ -4510,7 +4509,7 @@
           "AmongUs.GameLibs.Steam": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2024.9.4, )"
+            "version": "[2024.10.29, )"
           },
           "BepInEx.AutoPlugin": {
             "suppressParent": "All",
@@ -4530,7 +4529,7 @@
           },
           "YamlDotNet": {
             "target": "Package",
-            "version": "[15.3.0, )"
+            "version": "[15.1.2, )"
           }
         },
         "imports": [
